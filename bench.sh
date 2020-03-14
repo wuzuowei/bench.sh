@@ -69,6 +69,9 @@ next() {
     printf "%-70s\n" "-" | sed 's/\s/-/g'
 }
 
+
+
+##不懂
 speed_test(){
 	if [[ $1 == '' ]]; then
 		temp=$(python speedtest.py --share 2>&1)
